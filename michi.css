@@ -55,11 +55,11 @@ h1{
  nav {
    background-color: #3d37d6;
    border-radius: 10px;
-   box-shadow: 0 10px 150px rgba(55, 39, 145, 0.682);
+  box-shadow: 0 10px 150px rgba(55, 39, 145, 0.682);
  }
  nav:hover {
     background: rgb(74, 131, 216);
-    box-shadow: 0 10px 150px rgba(55, 39, 145, 0.682);
+    box-shadow: 2 10vw 80vw rgba(70, 86, 232, 0.999);
  }
  a {
     padding: 5px;
@@ -251,19 +251,10 @@ h1{
 }
 .card {
   width: 88%;
-  height: 5vh;
+  height: 10vh;
   border-radius: 8px;
   background-color: #000000;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-@media (width < 750px){
-  .card{
-    width: 95%;
-    height: 150px;
-    border-radius: 8px;
-    background-color: #000000;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
 }
 .card-img {
   width: 100%;
@@ -279,11 +270,12 @@ h1{
 .card-price {
   font-size: 1.5rem;
   color: #dae4eb;
- 
+  margin-bottom: 10px;
 }
 .add-to-cart {
   display: block;
   width: 100%;
+  padding: 10px 0;
   text-align: center;
   background-color: #007bff;
   color: #fff;
