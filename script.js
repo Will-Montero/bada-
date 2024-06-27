@@ -1,18 +1,18 @@
 const products = [
     {
-        name: 'Product 1',
-        price: '$100',
-        image: 'product1.jpg'
+        name: 'Pegatina Sideral',
+        price: '$20.000',
+        image: 'img/StikerGato.jpeg'
     },
     {
-        name: 'Product 2',
-        price: '$150',
-        image: 'product2.jpg'
+        name: 'Camiseta Sideral',
+        price: '$30.000',
+        image: 'img/camisetaGato.jpeg'
     },
     {
-        name: 'Product 3',
-        price: '$200',
-        image: 'product3.jpg'
+        name: 'Michi Botones',
+        price: '$5.000',
+        image: 'img/botonGato.jpeg'
     }
 ];
 
