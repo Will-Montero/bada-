@@ -93,7 +93,7 @@ h1{
  }
 
  /**container grid*/
- .container {
+ .containerReproductor {
     margin: 0 auto;
     padding: 15px 0px;
     display: grid;
@@ -107,7 +107,7 @@ h1{
     box-shadow: 0 1px 10px rgba(23, 10, 99, 0.682);
  }
  @media (width > 1200px){
-    .container {
+    .containerReproductor {
         grid-template-areas: 
         "musica" "musica";
         grid-template-columns:1fr 1fr;
@@ -215,7 +215,7 @@ h1{
   /**Merch*/ 
 
   /**todo el container*/
-
+/* 
 .containerMerch{
   width: 90%;
   margin:  0 auto;
@@ -291,6 +291,58 @@ h1{
 }
 .add-to-cart:hover {
   background-color: #0056b3;
+} */
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.image-container {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.controls {
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  background-color: #fafafa;
+  border-top: 1px solid #ccc;
+}
+
+.controls button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.product-info {
+  text-align: center;
+}
+
+#product-name {
+  margin: 0;
+}
+
+#product-price {
+  margin: 5px 0 0 0;
+  color: #666;
 }
 
 
