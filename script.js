@@ -5,7 +5,7 @@ const products = [
         image: 'img/StikerGato.jpeg'
     },
     {
-        name: 'Camiseta Sideral',
+        name: 'Camiseta',
         price: '$30.000',
         image: 'img/camisetaGato.jpeg'
     },
