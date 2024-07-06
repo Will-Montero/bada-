@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Nervous';
+  src: url('img/fonts/nervous.woff2') format('woff2'),
+       url('img/fonts/nervous.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.custom-font {
+
+  font-family: 'Nervous', Arial, sans-serif; /* Usa la fuente personalizada */
+}
 .card-border-width {
     border: none;
     border-color: none;
@@ -188,6 +200,7 @@ h1{
     padding: 10px;
  }
  .tituloEventos{
+  padding-top: 40px;
   color: white;
   text-align: center;
  }
